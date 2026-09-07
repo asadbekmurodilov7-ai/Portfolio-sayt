@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#F5F0E8">
 <title>Asadbek Murodilov</title>
 <meta name="description" content="Biznes egalari va ekspertlar uchun kontent yarataman. Reels, karusel, storis.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,6 +20,8 @@ html,body{overflow-x:hidden;max-width:100%}
 body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,-apple-system,sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased;font-feature-settings:"ss01","ss02"}
 img,video{max-width:100%;display:block}
 a{color:inherit}
+*{-webkit-tap-highlight-color:transparent}
+.card,.btn,.link,.nav-links a{touch-action:manipulation}
 .container{max-width:1040px;margin:0 auto;padding:0 24px}
 @media(max-width:600px){.container{padding:0 18px}}
 
@@ -54,7 +57,8 @@ a{color:inherit}
 @media(max-width:820px){.hero{grid-template-columns:1fr;gap:28px;padding:48px 0 40px}}
 @media(max-width:480px){.hero{padding:36px 0 28px;gap:24px}}
 .hero-text{min-width:0}
-.kicker{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:24px;display:flex;align-items:center;gap:10px}
+.kicker{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:24px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+@media(max-width:400px){.kicker{font-size:11px;gap:8px;margin-bottom:18px}.kicker::before{width:20px}}
 .kicker::before{content:"";width:32px;height:1px;background:var(--muted)}
 .hero h1{font-family:'Fraunces',serif;font-size:clamp(34px,5.5vw,66px);line-height:1.04;letter-spacing:-.025em;font-weight:400;margin-bottom:20px;font-variation-settings:"opsz" 120}
 @media(max-width:480px){.hero h1{font-size:32px;line-height:1.08}}
@@ -243,37 +247,37 @@ footer{padding:48px 0 40px;border-top:1px solid var(--border);display:flex;justi
     </div>
     <div class="portfolio">
       <div class="card wide" data-video="videolar/2qisim_mittilar_.mp4">
-        <img src="posters/2qisim_mittilar_.jpg" alt="AI Multfilm">
+        <img loading="lazy" decoding="async" src="posters/2qisim_mittilar_.jpg" alt="AI Multfilm">
         <div class="play-btn"><svg width="20" height="20" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
         <div class="card-overlay"><div class="card-cat">AI Multfilm</div><div class="card-title">Mittilar · 2-qism</div></div>
       </div>
       <div class="card wide" data-video="videolar/IMG_8194.mp4">
-        <img src="posters/IMG_8194.jpg" alt="AI Multfilm">
+        <img loading="lazy" decoding="async" src="posters/IMG_8194.jpg" alt="AI Multfilm">
         <div class="play-btn"><svg width="20" height="20" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
         <div class="card-overlay"><div class="card-cat">AI Multfilm</div><div class="card-title">Maktabgacha</div></div>
       </div>
       <div class="card" data-video="videolar/IMG_1464.mp4">
-        <img src="posters/IMG_1464.jpg" alt="Avtomoyka">
+        <img loading="lazy" decoding="async" src="posters/IMG_1464.jpg" alt="Avtomoyka">
         <div class="play-btn"><svg width="20" height="20" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
-        <div class="card-overlay"><div class="card-cat">Video montaj</div><div class="card-title">Avtomoyka</div></div>
+        <div class="card-overlay"><div class="card-cat">Moshina edit</div><div class="card-title">Avtomoyka</div></div>
       </div>
       <div class="card" data-video="videolar/IMG_0865.mp4">
-        <img src="posters/IMG_0865.jpg" alt="Avto">
+        <img loading="lazy" decoding="async" src="posters/IMG_0865.jpg" alt="Avto">
         <div class="play-btn"><svg width="20" height="20" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
-        <div class="card-overlay"><div class="card-cat">Video montaj</div><div class="card-title">Tunda</div></div>
+        <div class="card-overlay"><div class="card-cat">Moshina edit</div><div class="card-title">Tunda</div></div>
       </div>
       <div class="card" data-video="videolar/IMG_0947.mp4">
-        <img src="posters/IMG_0947.jpg" alt="Portret">
+        <img loading="lazy" decoding="async" src="posters/IMG_0947.jpg" alt="Portret">
         <div class="play-btn"><svg width="20" height="20" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
-        <div class="card-overlay"><div class="card-cat">Video montaj</div><div class="card-title">Yo'lda</div></div>
+        <div class="card-overlay"><div class="card-cat">Moshina edit</div><div class="card-title">Yo'lda</div></div>
       </div>
       <div class="card" data-video="videolar/IMG_2694.mp4">
-        <img src="posters/IMG_2694.jpg" alt="Kadr">
+        <img loading="lazy" decoding="async" src="posters/IMG_2694.jpg" alt="Kadr">
         <div class="play-btn"><svg width="20" height="20" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
-        <div class="card-overlay"><div class="card-cat">Video montaj</div><div class="card-title">Detal</div></div>
+        <div class="card-overlay"><div class="card-cat">Moshina edit</div><div class="card-title">Detal</div></div>
       </div>
       <div class="card" data-video="videolar/IMG_9651.mp4">
-        <img src="posters/IMG_9651.jpg" alt="Tadbir">
+        <img loading="lazy" decoding="async" src="posters/IMG_9651.jpg" alt="Tadbir">
         <div class="play-btn"><svg width="20" height="20" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
         <div class="card-overlay"><div class="card-cat">Tadbir</div><div class="card-title">Avgust kengashi</div></div>
       </div>
